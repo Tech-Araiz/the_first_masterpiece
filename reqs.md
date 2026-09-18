@@ -1,5 +1,5 @@
-#SOFTWARE REQUIREMENT SPECIFICATION
-##FUNCTIONAL REQUIREMENTS
+# SOFTWARE REQUIREMENT SPECIFICATION
+## FUNCTIONAL REQUIREMENTS
 ### FR1: Connect Multiple Rovers
 The system must connect to and communicate with multiple rovers at the same time.
 
@@ -9,8 +9,10 @@ The system must let operators send different commands to each rover individually
 ### FR3: Broadcast Commands
 The system must allow operators to send a single command to all connected rovers at once.
 
-### FR4: Rover Tracking Map
-The system must show the current location and path of each rover on a live map interface.
+### FR4: Safe Mode
+The rover shall enter Safe Mode within 3 seconds when
+battery temperature exceeds the critical threshold or
+battery capacity falls below the defined emergency level.
 
 ### FR5: Auto-Reconnect
 The system must automatically try to reconnect if a rover drops its signal.
