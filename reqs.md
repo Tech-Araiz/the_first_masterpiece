@@ -30,5 +30,6 @@ A new user must be able to view and select any connected rover within 2 clicks o
 ### NFR3: Scale to 20 Rovers
 The system must run smoothly with up to 20 rovers connected at once without slowing down.
 
-### NFR4: 99.9% Uptime
-The control software must remain online and running 99.9% of the time during active work shifts.
+### NFR4: Scalabe to 20
+The system shall support at least 20 simultaneously
+connected rovers.
